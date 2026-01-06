@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: radial-gradient(circle at top, #0f2027, #000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            width: 350px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.85);
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 25px #00fff0;
+        }
+
+        .login-box img {
+            width: 90px;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 0 10px #00fff0);
+        }
+
+        .login-box h2 {
+            color: #00fff0;
+            margin-bottom: 25px;
+            text-shadow: 0 0 10px #00fff0;
+        }
+
+        .input-box {
+            margin-bottom: 20px;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 12px;
+            background: transparent;
+            border: 2px solid #00fff0;
+            border-radius: 8px;
+            color: #fff;
+            outline: none;
+            font-size: 16px;
+            box-shadow: 0 0 10px rgba(0, 255, 240, 0.5);
+        }
+
+        .input-box input::placeholder {
+            color: #aefcff;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #00fff0;
+            color: #000;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 0 20px #00fff0;
+        }
+
+        .login-btn:hover {
+            background: #00cfc4;
+            box-shadow: 0 0 30px #00fff0;
+        }
+
+        .footer-text {
+            margin-top: 20px;
+            color: #8ffcff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+
+        <!-- College Logo -->
+        <img src="https://klnce.edu/General/ContactUs.aspx" alt="College Logo">
+
+        <h2>College Login</h2>
+
+        <!-- Username -->
+        <div class="input-box">
+            <input type="text" placeholder="Username" required>
+        </div>
+
+        <!-- Password -->
+        <div class="input-box">
+            <input type="password" placeholder="Password" required>
+        </div>
+
+        <!-- Login Button -->
+        <button class="login-btn">Login</button>
+
+        <div class="footer-text">
+            © 2026 Your College Name
+        </div>
+
+    </div>
+
+</body>
+</html>
 
